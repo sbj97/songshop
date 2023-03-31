@@ -19,12 +19,21 @@ function App(){
 
       <div className="container">
         <div className="row">
-          <div className="col-md-4">안녕</div>
-          <img src=""/>
+          <div className="col-md-4">
+          <img src={process.env.PUBLIC_URL + '/img/shoes1.jpg'} width="80%"/>
           <h4>상품명</h4>
           <p>상품설명</p>
-          <div className="col-md-4">안녕</div>
-          <div className="col-md-4">안녕</div>
+          </div>
+          <div className="col-md-4">
+          <img src={process.env.PUBLIC_URL + '/img/shoes2.jpg'}  width="80%"/>
+          <h4>상품명</h4>
+          <p>상품설명</p>
+          </div>
+          <div className="col-md-4">
+          <img src={process.env.PUBLIC_URL + '/img/shoes3.jpg'} width="80%"/>
+          <h4>상품명</h4>
+          <p>상품설명</p>
+          </div>
         </div>
       </div> 
 
